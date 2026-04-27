@@ -41,62 +41,70 @@
 
 ---
 
-### 🚀 Projetos de Destaque (IA & Automação)
+### 🚀 Projetos de Destaque (IA, Pesquisa & Automação)
 
 <details>
-<summary><strong>🤖 Nespolo AI & PLIM AI (IA Multimodal e Prospecção de Leads)</strong></summary>
+<summary><strong>🌐 Project Consensus (Cruzamento de Dados & Agentes Autónomos)</strong></summary>
 <br>
 
-- **Descrição:** Plataformas de automação e IA de nível profissional. Integram um chatbot de WhatsApp avançado (Google Vertex AI/Gemini Pro, LangChain, ReAct) com um pipeline de prospecção de leads assíncrono (Celery, Google Search API) sobre uma arquitetura de microsserviços robusta e observável.
-- **Stack:** `Python`, `FastAPI`, `Google Vertex AI (Gemini Pro)`, `LangChain`, `FAISS`, `PostgreSQL`, `Celery`, `Redis`, `Docker`, `Streamlit`, `Prometheus`, `Grafana`.
+- **Descrição:** Sistema avançado para cruzamento de dados em larga escala utilizando agentes autónomos. A plataforma integra fatores externos e bases de dados complexas para gerar inteligência de negócio e suporte à decisão em tempo real.
+- **Stack:** `Python`, `FastAPI`, `Autonomous Agents`, `LangChain`, `PostgreSQL`, `Docker`.
 </details>
 
 <details>
-<summary><strong>🔬 MedReadingAI (Análise Multi-Agente e Arquitetura Orientada a Eventos)</strong></summary>
+<summary><strong>⚖️ JUDICATA (IA Neuro-Simbólica & Defesa Jurídica)</strong></summary>
 <br>
 
-- **Descrição:** Sistema de software de ponta para analisar artigos científicos usando múltiplos agentes de IA especializados (Clínico, Pesquisa, etc.). Implementa uma Arquitetura Orientada a Eventos (EDA) com Redis Pub/Sub, um algoritmo agregador ponderado e um sistema de Human-in-the-Loop (HITL) para validação.
-- **Stack:** `Python`, `FastAPI`, `PostgreSQL`, `Redis`, `Celery`, `OpenAI`, `Anthropic`, `Transformers`, `Docker`, `Prometheus`, `Grafana`, `Nginx`.
+- **Descrição:** Framework inovador que combina IA Neuro-Simbólica para a deteção de ataques em sistemas de IA jurídica. Focado em defesa e integridade processual, o projeto foi desenvolvido com base na intersecção entre o Direito e a Computação Aplicada.
+- **Stack:** `Python`, `Neuro-symbolic AI`, `Transformers`, `PyTorch`, `LegalTech Frameworks`.
 </details>
 
 <details>
-<summary><strong>⚖️ SIDAL (Detecção de Anomalias em Licitações com Grafos e ML)</strong></summary>
+<summary><strong>⚡ Smart Substation FL (Aprendizagem Federada & Redes Inteligentes)</strong></summary>
 <br>
 
-- **Descrição:** Plataforma de IA 100% offline para combater fraudes em licitações. Combina ML não supervisionado (Isolation Forest) para detecção de anomalias, análise de grafos (NetworkX, Neo4j) para detectar padrões de relacionamento suspeitos, e LLM local (Mistral 7B) para análise de texto.
-- **Stack:** `Python`, `FastAPI`, `Scikit-learn`, `NetworkX`, `Neo4j`, `LangChain`, `Mistral 7B`, `Tesseract`, `Docker`.
+- **Descrição:** Investigação de mestrado focada na implementação de Aprendizagem Profunda Federada (Federated Deep Learning) em subestações elétricas. Utiliza Edge Computing, IoT e Blockchain para garantir o processamento local e a segurança na troca de modelos em redes elétricas inteligentes.
+- **Stack:** `Federated Learning (Flower/TensorFlow)`, `Edge Computing`, `Blockchain`, `IoT`, `Python`.
 </details>
 
 <details>
-<summary><strong>🛡️ PenteIA (Esquadrão de Agentes de IA para Cibersegurança)</strong></summary>
+<summary><strong>📦 Urbano Têxtil AI (Logística & Gestão Inteligente de Stock)</strong></summary>
 <br>
 
-- **Descrição:** Plataforma de segurança ofensiva (pentest) modular que utiliza um esquadrão de agentes de IA especializados, incluindo: Análise Web (RNN com LSTM), Criptoanálise (Naive Bayes) e Análise Forense (Autoencoders).
-- **Stack:** `Python`, `TensorFlow/Keras/PyTorch`, `Scikit-learn`, `Scapy`.
+- **Descrição:** Solução de IA customizada para o setor têxtil, focada na otimização da cadeia logística e gestão de inventário. O sistema utiliza modelos preditivos para antecipar necessidades de stock e otimizar fluxos de distribuição.
+- **Stack:** `Python`, `FastAPI`, `Scikit-learn`, `Predictive Analytics`, `PostgreSQL`.
 </details>
 
 <details>
-<summary><strong>💬 Assistente Virtual clarav7 (Qualificação de Leads)</strong></summary>
+<summary><strong>🏢 Aurora & Clara SDR (Prospecção de Alto Padrão)</strong></summary>
 <br>
 
-- **Descrição:** Implementação avançada de um chatbot para a Clínica LS Dermatologia. Utiliza fluxos de conversa dinâmicos (paciente novo vs. existente) e segue um roteiro de qualificação detalhado, incluindo divulgação de valores e políticas.
-- **Stack:** `Python`, `FastAPI`, `LangChain`, `OpenAI GPT-4o`, `Celery`, `Redis`, `PostgreSQL`, `Docker`.
+- **Descrição:** Ecossistema de SDRs virtuais especializados. A **Aurora** atua no setor imobiliário com processamento de voz (STT) para qualificação de leads, enquanto a **Clara** utiliza personas ajustadas (*fine-tuning*) para triagem e atendimento em clínicas de saúde.
+- **Stack:** `Python`, `Google Vertex AI`, `Speech-to-Text`, `LangChain`, `Redis`, `Celery`.
 </details>
 
 <details>
-<summary><strong>💸 Agiota IA (Sistema Autônomo de Cobrança)</strong></summary>
+<summary><strong>🧬 HGA-Pat (Algoritmo Genético Híbrido Proprietário)</strong></summary>
 <br>
 
-- **Descrição:** Sistema autônomo de cobrança de dívidas via WhatsApp. Usa Google Gemini Pro (LangChain) para gerar mensagens, Z-API para envio e Celery (Beat + Workers) para agendamento e processamento com lógica de retentativa.
-- **Stack:** `Python`, `FastAPI`, `Google Gemini Pro`, `LangChain`, `Celery`, `PostgreSQL`, `Alembic`, `Redis`, `Docker`.
+- **Descrição:** Algoritmo Genético Híbrido desenvolvido para otimização complexa, utilizando técnicas de quantização em blocos e código preditivo. O projeto explora a redução de dimensionalidade com PCA e integração com redes neurais para alta performance computacional.
+- **Stack:** `Python`, `Evolutionary Computing`, `PCA`, `NumPy`, `Scikit-learn`.
 </details>
 
 <details>
-<summary><strong>🚔 Análise Criminal com LLM Local (Twitter/X)</strong></summary>
+<summary><strong>🔬 MedReadingAI (Análise Multi-Agente Científica)</strong></summary>
 <br>
 
-- **Descrição:** API que analisa a percepção de criminalidade. Coleta posts do Twitter/X (Playwright) e usa um LLM local (Mistral 7B via Ollama) para classificar os posts e gerar resumos analíticos.
-- **Stack:** `Python`, `FastAPI`, `Ollama`, `Mistral 7B`, `LangChain`, `Playwright`, `Docker`.
+- **Descrição:** Plataforma de análise de artigos científicos baseada numa Arquitetura Orientada a Eventos (EDA). Utiliza múltiplos agentes especializados e um sistema de validação *Human-in-the-Loop* (HITL) para garantir a precisão das extrações clínicas.
+- **Stack:** `Python`, `FastAPI`, `Redis Pub/Sub`, `Celery`, `OpenAI`, `Anthropic`, `Docker`, `Grafana`.
+</details>
+
+<details>
+<summary><strong>🛡️ PenteIA (Segurança Ofensiva & Forense com IA)</strong></summary>
+<br>
+
+- **Descrição:** Esquadrão modular de agentes de IA para Cibersegurança. Inclui módulos de análise preditiva de vulnerabilidades (RNN/LSTM), criptoanálise via Naive Bayes e sistemas de análise forense automatizada com Autoencoders.
+- **Stack:** `Python`, `TensorFlow/Keras`, `PyTorch`, `Scapy`, `Security Analysis`.
 </details>
 
 ---
